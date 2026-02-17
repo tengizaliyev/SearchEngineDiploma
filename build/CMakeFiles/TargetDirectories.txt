@@ -1,0 +1,5 @@
+/home/hexgazer/Documents/SearchEngineDiploma/build/CMakeFiles/spider.dir
+/home/hexgazer/Documents/SearchEngineDiploma/build/CMakeFiles/indexer.dir
+/home/hexgazer/Documents/SearchEngineDiploma/build/CMakeFiles/searcher.dir
+/home/hexgazer/Documents/SearchEngineDiploma/build/CMakeFiles/edit_cache.dir
+/home/hexgazer/Documents/SearchEngineDiploma/build/CMakeFiles/rebuild_cache.dir

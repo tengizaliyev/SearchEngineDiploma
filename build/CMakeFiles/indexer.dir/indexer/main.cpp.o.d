@@ -162,19 +162,19 @@ CMakeFiles/indexer.dir/indexer/main.cpp.o: \
  /usr/include/c++/13/ext/aligned_buffer.h \
  /usr/include/c++/13/bits/enable_special_members.h \
  /usr/include/c++/13/bits/node_handle.h \
- /usr/include/c++/13/bits/erase_if.h \
- /home/hexgazer/Documents/SearchEngineDiploma/indexer/../include/db.hpp \
- /usr/include/pqxx/pqxx /usr/include/pqxx/internal/header-pre.hxx \
- /usr/include/c++/13/version /usr/include/pqxx/internal/cxx-features.hxx \
- /usr/include/pqxx/config-public-compiler.h /usr/include/c++/13/ciso646 \
- /usr/include/pqxx/array.hxx /usr/include/c++/13/algorithm \
+ /usr/include/c++/13/bits/erase_if.h /usr/include/c++/13/algorithm \
  /usr/include/c++/13/bits/stl_algo.h \
  /usr/include/c++/13/bits/algorithmfwd.h \
  /usr/include/c++/13/bits/stl_heap.h \
  /usr/include/c++/13/bits/uniform_int_dist.h \
  /usr/include/c++/13/bits/stl_tempbuf.h \
  /usr/include/c++/13/pstl/glue_algorithm_defs.h \
- /usr/include/c++/13/pstl/execution_defs.h /usr/include/c++/13/cassert \
+ /usr/include/c++/13/pstl/execution_defs.h \
+ /home/hexgazer/Documents/SearchEngineDiploma/indexer/../include/db.hpp \
+ /usr/include/pqxx/pqxx /usr/include/pqxx/internal/header-pre.hxx \
+ /usr/include/c++/13/version /usr/include/pqxx/internal/cxx-features.hxx \
+ /usr/include/pqxx/config-public-compiler.h /usr/include/c++/13/ciso646 \
+ /usr/include/pqxx/array.hxx /usr/include/c++/13/cassert \
  /usr/include/assert.h /usr/include/c++/13/utility \
  /usr/include/c++/13/bits/stl_relops.h /usr/include/c++/13/vector \
  /usr/include/c++/13/bits/stl_uninitialized.h \

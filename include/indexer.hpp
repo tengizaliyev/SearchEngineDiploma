@@ -1,22 +1,33 @@
 #pragma once
 #include <string>
-#include <sstream>
 #include <unordered_map>
 #include <algorithm>
+#include <cctype>
 
 class Indexer {
 public:
-    static std::unordered_map<std::string,int> countWords(const std::string& text) {
-        std::unordered_map<std::string,int> freq;
-        std::stringstream ss(text);
+    static std::unordered_map<std::string, int> countWords(const std::string& text) {
+        std::unordered_map<std::string, int> freq;
         std::string word;
+        word.reserve(32);
 
-        while (ss >> word) {
-            word.erase(std::remove_if(word.begin(), word.end(), ::ispunct), word.end());
-            std::transform(word.begin(), word.end(), word.begin(), ::tolower);
+        auto commitWord = [&]() {
+            if (word.size() >= 3 && word.size() <= 32) {
+                ++freq[word];
+            }
+            word.clear();
+        };
 
-            if (word.size() < 3) continue;
-            freq[word]++;
+        for (unsigned char ch : text) {
+            if (std::isalnum(ch)) {
+                word.push_back(static_cast<char>(std::tolower(ch)));
+            } else if (!word.empty()) {
+                commitWord();
+            }
+        }
+
+        if (!word.empty()) {
+            commitWord();
         }
 
         return freq;
